@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SnapTutor
 
-## Getting Started
+SnapTutor is a **multimodal AI tutor** that analyzes images of homework or study material and provides clear explanations using **Google's Gemini model**.
 
-First, run the development server:
+Instead of forcing students to describe visual problems in text, SnapTutor allows them to simply **upload an image and ask a question**, and the AI explains what it sees.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Watch the demo video here:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+[Demo Video](./demo/snap-tutor-demo.mp4)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Upload images of homework, diagrams, or study material
+- Ask questions about the uploaded content
+- AI explanation powered by **Gemini multimodal models**
+- Spoken responses using the **Speech Synthesis API**
+- Responsive interface built with **Next.js**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## How It Works
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. The user uploads an image of homework or study material.
+2. The user asks a question about the image.
+3. The frontend sends the image and question to the backend API.
+4. The backend calls the **Gemini multimodal model**.
+5. Gemini analyzes the image and generates an explanation.
+6. The explanation is displayed and optionally spoken aloud.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Architecture
