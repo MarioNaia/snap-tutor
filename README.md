@@ -10,7 +10,7 @@ Instead of forcing students to describe visual problems in text, SnapTutor allow
 
 Watch the demo video here:
 
-[Demo Video](./demo/snap-tutor-demo.mp4)
+[[Demo Video](./demo/snap-tutor-demo.mp4)](https://www.youtube.com/watch?v=uWrkoixL1fw&feature=youtu.be)
 
 ---
 
@@ -36,3 +36,5 @@ Watch the demo video here:
 ---
 
 ## Architecture
+<img width="484" height="636" alt="snaptutor_architecture" src="https://github.com/user-attachments/assets/d61aec74-2c6d-442f-9c0f-aeaafd96f361" />
+
